@@ -1,4 +1,5 @@
 import numpy as np
+import cv2
 
 def compute_histogram_intersection(img1: np.ndarray, img2: np.ndarray) -> float:
     """
